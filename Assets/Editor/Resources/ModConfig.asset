@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: needyFlagIdentification
+  title: Flag Identification
+  author: GeekYiwen
+  description: "Identify one of the 195 country flags.\n\nNeedy Flag Identfication\nIdea
+    by weird\r\nImplemented by GeekYiwen\r\n\r\nModule-Id: needyFlagIdentification\nModule
+    File-ID: \n\nThis module has TP-Support\n\nManuel will be uploaded soon (but I'm
+    sure you don't need one.)\n\nFor any bugs you find, please DM me either on Discord:
+    #7561 GeekYiwen or via E-Mail: yiwenmc@gmail.com\r\n\r\nIf you have any questions
+    corresponding to the module also feel free to contact me(GeekYiwen).\n"
+  version: 1.1
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: 2ccbce4dec18a7942b089fbc7d3d1ea7, type: 3}
