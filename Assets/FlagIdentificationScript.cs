@@ -73,8 +73,8 @@ public class FlagIdentificationScript : MonoBehaviour
         Material[] temp = flagDisplay.GetComponent<MeshRenderer>().materials;
         temp[1] = flagMat;
         flagDisplay.GetComponent<MeshRenderer>().materials = temp;
-        flagMat.mainTexture = flags[UnityEngine.Random.Range(0, flags.Length)];
-        correctAnswer = flagMat.mainTexture.name;
+        flagDisplay.GetComponent<MeshRenderer>().materials[1].mainTexture = flags[UnityEngine.Random.Range(0, flags.Length)];
+        correctAnswer = flagDisplay.GetComponent<MeshRenderer>().materials[1].mainTexture.name;
         while (true)
         {
             availableAnswers = new string[] { correctAnswer, flags[UnityEngine.Random.Range(0, flags.Length)].name, flags[UnityEngine.Random.Range(0, flags.Length)].name, flags[UnityEngine.Random.Range(0, flags.Length)].name };
