@@ -39,6 +39,7 @@ public class FlagIdentificationScript : MonoBehaviour
             KMSelectable pressedObject = button;
             button.OnInteract += delegate () { ButtonPress(pressedObject); return false; };
         }
+        moduleId = moduleIdCounter++;
     }
 
     void Start()
