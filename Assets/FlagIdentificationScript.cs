@@ -272,7 +272,7 @@ public class FlagIdentificationScript : MonoBehaviour
 
     void ButtonPress(KMSelectable button)
     {
-        GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, button.transform);
+        audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, button.transform);
         button.AddInteractionPunch();
         if (isActive)
         {
