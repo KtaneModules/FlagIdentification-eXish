@@ -14,12 +14,12 @@ MonoBehaviour:
   id: needyFlagIdentification
   title: Flag Identification
   author: GeekYiwen
-  description: "Identify one of the 195 country flags.\n\nNeedy Flag Identfication\nIdea
-    by weird\r\nImplemented by GeekYiwen\r\n\r\nModule-Id: needyFlagIdentification\nModule
-    File-ID: 2059595303\n\nThis module has TP-Support\n\nManuel will be uploaded soon
-    (but I'm sure you don't need one.)\n\nFor any bugs you find, please DM me either
-    on Discord: #7561 GeekYiwen or via E-Mail: yiwenmc@gmail.com\r\n\r\nIf you have
-    any questions corresponding to the module also feel free to contact me(GeekYiwen).\n"
+  description: "This is a reupload of a module, unsubscribe from the old version here:
+    https://steamcommunity.com/sharedfiles/filedetails/?id=2059595303\r\n\r\nIdentify
+    one of the 195 country flags.\n\r\nHTML: https://ktane.timwi.de/HTML/Flag%20Identification.html\r\nPDF:
+    https://ktane.timwi.de/PDF/Flag%20Identification.pdf\r\n\r\nFlag Identfication
+    (needyFlagIdentification) v1.3.1\nIdea by weird\nImplementation by GeekYiwen\r\nMaintained
+    by eXish\r\nTwitch Plays supported"
   version: 1.3
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 2ccbce4dec18a7942b089fbc7d3d1ea7, type: 3}

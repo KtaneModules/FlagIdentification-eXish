@@ -79,6 +79,10 @@ public class FlagIdentificationScript : MonoBehaviour
         while (true)
         {
             availableAnswers = new string[] { correctAnswer, flags[UnityEngine.Random.Range(0, flags.Length)].name, flags[UnityEngine.Random.Range(0, flags.Length)].name, flags[UnityEngine.Random.Range(0, flags.Length)].name };
+            if ((correctAnswer == "Chad" || correctAnswer == "Romania") && availableAnswers.Count(x => x == "Chad") >= 1 && availableAnswers.Count(x => x == "Romania") >= 1)
+            {
+                continue;
+            }
             if (!(availableAnswers[0] == availableAnswers[1] || availableAnswers[0] == availableAnswers[2] || availableAnswers[0] == availableAnswers[3] || availableAnswers[1] == availableAnswers[2] || availableAnswers[1] == availableAnswers[3] || availableAnswers[2] == availableAnswers[3]))
             {
                 break;
